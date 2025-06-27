@@ -9,7 +9,6 @@ return new class extends Migration{
     public function up(): void{
 
         Schema::create('beneficio', function (Blueprint $table){
-
             $table->id();
             $table->unsignedBigInteger('persona_id');
             $table->foreign('persona_id')->references('id')->on('personas');
@@ -20,7 +19,6 @@ return new class extends Migration{
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->nullable();
         });
-
     }
 
     public function down(): void{

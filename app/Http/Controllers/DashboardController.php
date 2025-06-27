@@ -10,8 +10,8 @@ use App\Models\Beneficio;
 
 class DashboardController extends Controller
 {
-    public function index()
-    {
+    public function index(){
+        
         // Obtener el conteo de registros para cada modelo
         $totalUsers = User::count();
         $totalPersonas = Persona::count();

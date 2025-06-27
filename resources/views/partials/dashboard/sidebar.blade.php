@@ -66,7 +66,7 @@
         <span class="system-menu__title mt-4">ESTADISTICAS</span>
         <li>
           <a class="show-cat-btn" href="##">
-            <span class="icon paper" aria-hidden="true"></span>General
+            <span class="icon paper" aria-hidden="true"></span>Sistema
             <span class="category__btn transparent-btn" title="Open list">
               <span class="sr-only">Open list</span>
               <span class="icon arrow-down" aria-hidden="true"></span>
@@ -74,7 +74,7 @@
           </a>
           <ul class="cat-sub-menu visible">
             <li>
-              <a href="{{ route('datos-censales') }}">Datos Censales</a>
+              <a href="{{ route('estadisticas') }}">Geneal</a>
             </li>
           </ul>
         </li>

@@ -26,9 +26,16 @@ class Beneficio extends Model
     /**
      * @return \Illuminate\Database\Eloquent\Relations\HasOne
      */
+
+    /*
     public function tiposBeneficio()
     {
         return $this->hasOne('App\Models\TiposBeneficio', 'id', 'tipos_beneficio_id');
+    }
+    */
+    public function tipoBeneficio(){
+
+        return $this->belongsTo(TiposBeneficio::class, 'tipos_beneficio_id');
     }
     
 }
