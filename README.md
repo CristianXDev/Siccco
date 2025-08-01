@@ -1,6 +1,6 @@
 <h2>SICCO</h2>
 
-<img width="1004" height="599" alt="Screenshot_3" src="https://github.com/user-attachments/assets/391d6572-e774-486e-bfcc-3a83c3334688" />
+<img width="1003" height="513" alt="Screenshot_1" src="https://github.com/user-attachments/assets/e7d2ced6-0896-4acf-a859-c17ea34715ca" />
 
 <hr>
 
